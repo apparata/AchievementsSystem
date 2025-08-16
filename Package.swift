@@ -15,14 +15,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "AchievementsSystem",
-            swiftSettings: [
-                .enableExperimentalFeature("StrictConcurrency"),
-                .unsafeFlags([
-                    "-Xfrontend", "-warn-concurrency",
-                    "-Xfrontend", "-enable-actor-data-race-checks"
-                ])
-            ]
+            name: "AchievementsSystem"
         ),
         .testTarget(
             name: "AchievementsSystemTests",
