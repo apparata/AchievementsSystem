@@ -15,29 +15,6 @@ A flexible Swift package for managing achievement progress and unlocking logic i
 
 This project is licensed under the BSD Zero Clause License. See [LICENSE](LICENSE) for details.
 
-## Requirements
-
-- iOS 17.0+ / macOS 14.0+
-- Swift 6.1+
-- Xcode 15.0+
-
-## Installation
-
-### Swift Package Manager
-
-Add the following to your `Package.swift` file:
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/yourusername/AchievementsSystem.git", from: "1.0.0")
-]
-```
-
-Or add it through Xcode:
-1. File → Add Package Dependencies
-2. Enter the package URL
-3. Select the version range
-
 ## Usage
 
 ### Basic Setup
